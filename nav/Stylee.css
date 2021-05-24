@@ -1,0 +1,103 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url( red.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+	font-family: poppins;
+	font-weight: 600;
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+}
+header{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding : 30px 70px;
+}
+.log{
+	cursor: pointer;
+}
+.nav-area li{
+	display: inline-block;
+	padding: 0 15px;
+	text-transform: uppercase;
+}
+.nav-area: li a{
+	transition: .3s;
+	color: #fff;
+}
+.nav-area li a:hover{
+	color: #666699;
+}
+.btn-area{
+	cursor: pointer;
+	color:#fff;
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	border-radius: 5px;
+	background: #660000;
+}
+.main-header{
+	margin: 150px auto;
+	width: 50%;
+	padding: 8px;
+}
+img
+{
+	float: left;
+
+}
+h1
+{
+
+	color: #333333;
+	float: left;
+	margin: 150px auto;
+	font-size: 2rem;
+	padding-bottom: 4px;
+
+}
+.leftside img{ animation: heartbeat 5s linear infinite; }
+
+@keyframes heartbeat
+{
+	0%
+	{
+		transform: scale( .75 );
+	}
+	20%
+	{
+		transform: scale( 1 );
+	}
+	40%
+	{
+		transform: scale( .75 );
+	}
+	60%
+	{
+		transform: scale( 1 );
+	}
+	80%
+	{
+		transform: scale( .75 );
+	}
+	100%
+	{
+		transform: scale( .75 );
+	}
+
+}
